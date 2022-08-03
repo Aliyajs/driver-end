@@ -1,0 +1,154 @@
+.main_bg{
+    background: linear-gradient(180deg, #508650 0%, rgba(24, 48, 24, 0) 100%);
+    height: 670px;
+}
+.main{
+    background: url('../../../public/img/mainBanner.svg');
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5; 
+}
+.main_header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logotips{
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+}
+.logo{
+    width: 45px;
+    height: 50px;
+}
+.logo_name{
+    width: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;  
+}
+.pages_link{
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.pages_link::before{
+    content:'';
+    border-right: 3px white solid;
+    border-radius: 1px;
+    position: relative;
+    left: -15px;
+    top: 1px;
+    padding-left: 5px;
+}
+.search_inp{
+    width: 105px;
+    height: 40px;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+}
+.center_text{
+    margin-top: 150px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.center_text h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.center_text h1{
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 79px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.callBtn{
+    margin-top: 50px;
+    width: 220px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    background: #278027;
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+footer{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cdeecd;
+}
+.footer_logos{
+    display: flex;
+    grid-gap: 10px;
+}
+.footer__logo{
+    width: 31px;
+    height: 38px;
+}
+.footer__name{
+    width: 116px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #277F27;
+}
+.politica{
+    margin-top: 20px;
+    width: 182px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #424141;
+}
+.center{
+    text-align: center;
+}
+.contacts{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #424141;
+}
+.data__place{
+    margin-top: 15px;
+    width: 209px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #424141;
+}
+.right{
+    display: flex;
+    grid-gap: 10px;
+}
+.right__text{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #424141;
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    
+}
